@@ -1,12 +1,16 @@
 import Banner from './Banner';
 import './App.css';
+import Cart from './Cart';
+import ShoppingList from './ShoppingList';
 
 function App() {
   return (
-  
-  <Banner/>
-  
-  
+    <div>
+        <Banner/>
+        <Cart />
+        <ShoppingList />
+
+    </div>
   );
 }
 
