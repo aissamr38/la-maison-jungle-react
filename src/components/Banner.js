@@ -21,7 +21,7 @@ function Banner(){
                 <img src={logo}  alt='La maison jungule' className='lmj-logo'/>
                 <h1 className='lmj-title'> {title} </h1>
             </div>
-            {recommentdation}
+            
       </div>
     )
 }
