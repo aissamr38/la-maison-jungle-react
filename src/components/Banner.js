@@ -1,11 +1,14 @@
+import logo from '../assets/logo.png'
 import '../styles/Banner.css'
 
 
 function Banner(){
 
+    const title = 'La maison jungule'
     return (
      <div className='lmj-banner'>
-        <h1>La maison jungule</h1>
+        <img src={logo}  alt='La maison jungule' className='lmj-logo'/>
+        <h1 className='lmj-title'> {title} </h1>
       </div>
     )
 }
