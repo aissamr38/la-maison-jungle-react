@@ -1,6 +1,7 @@
 
 function CareScale({ scaleValue, careType }){
 
+    
 
     const scaleType = careType === 'light' ? '☀️' : '💧'
 
@@ -20,4 +21,6 @@ function CareScale({ scaleValue, careType }){
 
 }
 
-export default CareScale
+export default CareScale;
+
+
